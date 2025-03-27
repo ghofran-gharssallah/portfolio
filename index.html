@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet de Voyages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Carnet de Voyages</h1>
+        <nav>
+            <a href="#"> Présentation </a>
+            <a href="#">Compétences </a>
+            <a href="#"> Contact </a>
+            <a href="#">Galerie</a> 
+        </nav>
+    </header>
+   
+    <main>
+ 
+        <section id="presentation">
+            <h2>Présentation Personnelle</h2>
+            <div class="presentation-content">
+                <img src="photo-profil.png" alt="Photo de profil" class="profile-image">
+                <ul class="infos-personnelles">
+                    <li>Nom : Ali Sassi</li>
+                    <li>Âge : 28 ans</li>
+                    <li>Profession : Développeur Web</li>
+                    <li>Passion : Voyages et technologies</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>Tableau de Compétences</h2>
+            <table>
+              <tr>
+                <th>Compétence</th>
+                <th> Niveau</th>
+                <th>Domaine</th>
+            </tr>
+            <tr>
+                <td> HTML5</td>
+                <td>expert</td>
+                <td>developement web</td>
+            </tr>
+            <tr>
+                <td> css</td>
+                <td>expert</td>
+                <td>design web</td>
+            </tr>
+            <tr>
+                <td>javaScript</td>
+                <td>avance</td>
+                <td>programation web</td>
+            </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Formulaire de Contact</h2>
+            <form>
+                <label for="">nom :</label>
+                <input type="text" name="" id="nom">
+                <label for="">email :</label>
+                <input type="email" name="" id="email">
+                <label for="">message :</label>
+                <textarea name="" id="mess" cols="10" rows="2" required></textarea>
+                <label for="">Type de demande :</label>
+                <input type="radio" name="" id=""> Information
+                <input type="radio" name="" id="">  Recrutement <br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section id="galerie">
+            <h2>Galerie de Voyages</h2>
+            <div class="galerie-images">
+                <figure>
+                    <img src="paris.jpg" alt="paris" id="im1">
+                    
+                    <img src="tokyo.jpg" alt="paris" id="im2">
+                 
+                    <img src="new_york.jpg" alt="paris" id="im3">
+                    
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Carnet de Voyages</p>
+    </footer>
+</body>
+</html>
